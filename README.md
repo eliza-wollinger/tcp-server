@@ -1,18 +1,26 @@
-![TCP Server Banner](https://user-images.githubusercontent.com/57842220/138709524-631cab35-60c2-47d8-9182-d12b00d69456.png)
+#TCP (Transmission Control Protocol) Overview
 
-The TCP (Transmission Control Protocol) protocol implements a service called end-to-end communication, that is, it provides a logical communication between application processes running on different hosts, and provides a reliable data transfer service. between transport services on the internet partner applications. This protocol guarantees that data is delivered error-free, sequentially and without loss or duplication.
+TCP is a fundamental protocol that facilitates end-to-end communication, offering a logical channel for communication between application processes on different hosts. It ensures reliable data transfer services between applications on the internet, guaranteeing error-free, sequential, and non-duplicated data delivery.
 
-It is connection-oriented and, for them to happen, a concept called sockets (IP address + port) is used. Allowing to establish a connection between a pair of sockets according to previously specified quality of service and security parameters.
+TCP is a connection-oriented protocol, relying on the concept of sockets (IP address + port) to establish connections. This allows for the creation of reliable connections with predefined quality of service and security parameters.
 
 
-### How to run the server? 🏃‍♀️
+## How to Run the Server 🏃‍♀️
 
-To run the program and encrypt the files:
-```sh
+To start and run the server, follow these steps:
+
+1. Ensure you have Python 3.9 installed on your system.
+
+2. Open your terminal and execute the following command:
+```
 python3.9 main.py
 ```
 
-To use the decryption key you need to enter debugging the code as follows:
-```sh
+## Decrypting Data 🔓
+
+To use the decryption key and access specific functionalities of the program, follow these steps:
+
+1. Open your terminal and execute the following command:
+```
 python3.9 main.py -d
 ```
